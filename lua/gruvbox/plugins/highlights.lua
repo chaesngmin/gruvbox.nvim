@@ -152,7 +152,7 @@ local plugins = lush(function()
 		StartifySelect({ base.Title }),
 		-- vim-signify
 		SignifySignAdd({ base.GruvboxGreenSign }),
-		SignifySignChange({ base.GruvboxAquaSign }),
+		SignifySignChange({ base.GruvboxOrangeSign }),
 		SignifySignDelete({ base.GruvboxRedSign }),
 		-- syntastic
 		SyntasticError({ base.GruvboxRedUnderline }),
@@ -233,12 +233,12 @@ local plugins = lush(function()
 		ShowMarksHLm({ base.GruvboxBlueSign }),
 		-- git-gutter
 		GitGutterAdd({ base.GruvboxGreenSign }),
-		GitGutterChange({ base.GruvboxAquaSign }),
+		GitGutterChange({ base.GruvboxOrangeSign }),
 		GitGutterDelete({ base.GruvboxRedSign }),
-		GitGutterChangeDelete({ base.GruvboxAquaSign }),
+		GitGutterChangeDelete({ base.GruvboxOrangeSign }),
 		-- gitsigns.nvim
 		GitSignsAdd({ base.GruvboxGreenSign }),
-		GitSignsChange({ base.GruvboxAquaSign }),
+		GitSignsChange({ base.GruvboxOrangeSign }),
 		GitSignsDelete({ base.GruvboxRedSign }),
 		GitSignsCurrentLineBlame({ base.NonText }),
 		-- LSP
